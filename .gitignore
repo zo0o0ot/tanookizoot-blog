@@ -1,0 +1,7 @@
+/public/
+/resources/
+/resources/_gen/assets/scss/css/
+
+hugo.exe
+hugo.linux
+hugo.darwin

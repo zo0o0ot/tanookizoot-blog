@@ -5,6 +5,61 @@
     <link>http://example.org/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Apr 2021 23:29:21 +0530</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>example</title>
+      <link>http://example.org/tags/example/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      
+      <guid>http://example.org/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown syntax</title>
+      <link>http://example.org/tags/markdown-syntax/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      
+      <guid>http://example.org/tags/markdown-syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sample</title>
+      <link>http://example.org/tags/sample/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      
+      <guid>http://example.org/tags/sample/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emoji support</title>
+      <link>http://example.org/tags/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      
+      <guid>http://example.org/tags/emoji-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Placeholder text</title>
+      <link>http://example.org/tags/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      
+      <guid>http://example.org/tags/placeholder-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rich content</title>
+      <link>http://example.org/tags/rich-content/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      
+      <guid>http://example.org/tags/rich-content/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
