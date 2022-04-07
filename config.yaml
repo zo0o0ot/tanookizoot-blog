@@ -21,28 +21,28 @@ Menus:
       weight: 1
 
     #Dropdown menu
-    - identifier: dropdown
-      title: Example dropdown menu
-      name: Dropdown
-      weight: 2
-    - identifier: dropdown1
-      title: example dropdown 1
-      name: example 1
-      url: /#
-      parent: dropdown
-      weight: 1
-    - identifier: dropdown2
-      title: example dropdown 2
-      name: example 2
-      url: /#
-      parent: dropdown
-      weight: 2
+    # - identifier: dropdown
+    #  title: Example dropdown menu
+    #  name: Dropdown
+    #  weight: 2
+    #- identifier: dropdown1
+    #  title: example dropdown 1
+    #  name: example 1
+    #  url: /#
+    #  parent: dropdown
+    #  weight: 1
+    #- identifier: dropdown2
+    #  title: example dropdown 2
+    #  name: example 2
+    #  url: /#
+    #  parent: dropdown
+    #  weight: 2
 
 params:
   title: "TanookiZoot"
-  description: Cool text about TanookiZoot
+  description: TanookiZoot info
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/images/zootface300.png"
 
   theme:
     disableThemeToggle: false
@@ -90,44 +90,46 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "TanookiZoot."
-    subtitle: "I play games with chill vibes"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    subtitle: "I play games and share chill vibes"
+    content: "A variety streamer who plays games, shares stories, and listens to the folks around him. "
+    image: /images/TanookiZootBlackBG.gif
     button:
       enable: false
       name: "Resume"
       url: "#"
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-twitch
+          url: https://twitch.tv/tanookizoot
+        - icon: fab fa-discord
+          url: https://discord.gg/qbUWcggk
+        - icon: fab fa-steam
+          url: https://steamcommunity.com/id/TanookiZoot
+      # customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/coat14.png"
     content: |-
       I am a variety streamer on Twitch. I do cool stuff and help create chill vibes.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few games that I've been playing recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - Valheim
+        - No Man's Sky
+        - Underminer
+        - Core Keeper
+        - Streets of Rogue
+        - Boomerang Fu
 
   # Experience
   experience:
-    enable: true
+    enable: false
     items:
       - job: "Senior Software Developer"
         company: "Facebook"
@@ -155,43 +157,11 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+     
 
   # Education
   education:
-    enable: true
+    enable: false
     # index: true
     items:
       - title: "Master of Business Administration"
