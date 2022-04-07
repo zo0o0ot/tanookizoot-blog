@@ -89,12 +89,12 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
+    title: "TanookiZoot."
+    subtitle: "I play games with chill vibes"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: /images/hero.svg
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
     socialLinks:
@@ -216,7 +216,7 @@ params:
           - Face mask detection using a single convolutional neural network.
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Lorem ipsum dolor sit amet consectetur adipisicing eli. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
           enable: true
