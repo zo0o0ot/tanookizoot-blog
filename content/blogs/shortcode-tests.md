@@ -1,7 +1,7 @@
 +++
 title = "Shortcode Tests"
 description = "A post that tries out this set of shortcodes."
-date = "2016-12-29T13:39:24-05:00"
+date = "2022-04-07T13:39:24-05:00"
 draft = false
 +++
 
@@ -29,13 +29,11 @@ video. If both are set for a single shortcode, only the video variable
 will be set and channel will be ignored.
 
 To get a video ID from Twitch, visit a video page and the ID is the
-number at the end of the URL, along with the letter in the path name
+number at the end of the URL, not with the letter in the path name
 before it. With the example of `https://www.twitch.tv/example/v/123456789`
-the video ID would be `v123456789`.
+the video ID would be `123456789`.
 
-{{< twitch channel="example" >}}
-
-{{< twitch video="v123456789" >}}
+{{< twitch video="1259919476" >}}
 
 ## JSFiddle Shortcode
 JSFiddle shortcodes embed a read-only JSFiddle and displays the HTML,
@@ -47,10 +45,10 @@ To get the JSFiddle ID and Revision Number, visit a JSFiddle and the
 alphanumeric number as the first section in the path is the identifier.
 The revision number is the numeric number in the next part of the path.
 The revision number may not exist can be set to 0 or ignored. With
-the example url of `https://jsfiddle.net/347cw3h4/1/` the ID is
-`347cw3h4` and the revision number is `1`.
+the example url of `https://jsfiddle.net/khsf8rdg/1/` the ID is
+`khsf8rdg` and the revision number is `1`.
 
-{{< jsfiddle id="347cw3h4" rev="0" color="dark" view="js,html,css,result" height="200" >}}
+{{< jsfiddle id="khsf8rdg" rev="0" color="dark" view="js,html,css,result" height="200" >}}
 
 ## Pastebin Shortcode
 Pastebin is a great place to paste source code, logs, and other content

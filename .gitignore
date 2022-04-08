@@ -5,3 +5,7 @@
 hugo.exe
 hugo.linux
 hugo.darwin
+public/index.xml
+public/sitemap.xml
+public/categories/index.xml
+public/tags/index.xml
