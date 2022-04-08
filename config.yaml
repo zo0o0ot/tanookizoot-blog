@@ -4,7 +4,7 @@ title: "TanookiZoot"
 theme: hugo-profile
 
 Paginate: 3
-disqusShortname: gurusabarish
+disqusShortname: tanookizoot
 googleAnalytics: G-DWJJVE27WD
 
 markup:
@@ -90,7 +90,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "TanookiZoot."
-    subtitle: "I play games and share chill vibes"
+    subtitle: "I play games and cultivate chill vibes"
     content: "A variety streamer who plays games, shares stories, and listens to the folks around him. "
     image: /images/TanookiZootBlackBG.gif
     button:
@@ -103,6 +103,8 @@ params:
           url: https://twitch.tv/tanookizoot
         - icon: fab fa-discord
           url: https://discord.gg/qbUWcggk
+        - icon: fab fa-twitter
+          url: https://twitter.com/TanookiZoot
         - icon: fab fa-steam
           url: https://steamcommunity.com/id/TanookiZoot
       # customIcons:
@@ -205,19 +207,21 @@ params:
   achievements:
     enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Black Belt - Boomerang Fu
+        content: Area of expertise- Telekenesis
+        url: https://www.boomerangfu.com/
+      - title: Ancient Fruit Wine Maven - Stardew Valley
+        content: Highly popular artisinal farmer.  Grandfather-approved.
+        url: https://www.stardewvalley.net/
+      - title: Completed Cloakroom - Heave Ho
+        content: Fashionably attired.
+        url: "https://www.heavehogame.com/"
+      - title: Novice Gardener - Core Keeper
+        content: Grower of glow tulips and assorted plants
+        url: "https://pugstorm.eu/"
+      - title: Fridge Hacker - Streets of Rogue
+        content: Is your refrigerator running?
+        url: https://streetsofrogue.com/
 
   # projects
   projects:
@@ -272,14 +276,14 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: tanookizoot@gmail.com
     btnName: Mail me
 
   footer:
     # recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/tanookizoot
+      # linkedin: https://linkedin.com
+      twitter: https://twitter.com/TanookiZoot
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
