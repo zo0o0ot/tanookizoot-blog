@@ -124,7 +124,7 @@ params:
       items:
         - Valheim
         - No Man's Sky
-        - Underminer
+        - Undermine
         - Core Keeper
         - Streets of Rogue
         - Boomerang Fu
@@ -227,12 +227,12 @@ params:
   projects:
     enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Extra Life
+        content: I stream sometimes to raise money for Extra Life, a program of Children's Miracle Network Hospitals.
+        image: /images/projects/ExtraLife_logo_RGB.svg
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: My Team
+          link: https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=60690
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
