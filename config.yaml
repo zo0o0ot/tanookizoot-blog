@@ -107,9 +107,9 @@ params:
           url: https://twitter.com/TanookiZoot
         - icon: fab fa-steam
           url: https://steamcommunity.com/id/TanookiZoot
-      # customIcons:
-      #  - icon: /fav.png
-      #    url: "https://example.com"
+      customIcons:
+        - icon: /images/projects/kofilogo_bluebg.png
+          url: "https://ko-fi.com/tanookizoot"
 
   # About
   about:
@@ -247,7 +247,7 @@ params:
 
       - title: The Beanpod
         content: Sometimes I hang out on Discord with a bunch of cool folks.  We call ourselves the Beanpod.
-        image: /images/projects/bean-pod.jpg
+        image: /images/projects/beanpod.webp
         featured:
           name: Discord Link
           link: https://discord.gg/qbUWcggk
