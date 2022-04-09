@@ -1,11 +1,11 @@
-baseURL: "https://example.org"
+baseURL: "https://tanookizoot.com"
 languageCode: "en-us"
 title: "TanookiZoot"
 theme: hugo-profile
 
 Paginate: 3
 disqusShortname: tanookizoot
-googleAnalytics: G-DWJJVE27WD
+googleAnalytics: G-ET77RHBLNH
 
 markup:
   goldmark:
@@ -40,7 +40,7 @@ Menus:
 
 params:
   title: "TanookiZoot"
-  description: TanookiZoot info
+  description: Hi, I'm TanookiZoot!
   # staticPath: ""  # The path to serve the static files from
   favicon: "/images/zootface300.png"
 
