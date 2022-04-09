@@ -5,7 +5,7 @@ date = "2022-04-07T13:39:24-05:00"
 draft = false
 +++
 
-Hello,
+Hello Zooters,
 Thanks for downloading and testing our my shortcode pack. Below will
 load all of the shortcodes and display the various options they have.
 If you like and enjoy these short codes, please post a link on your
