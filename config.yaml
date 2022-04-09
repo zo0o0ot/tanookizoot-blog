@@ -101,12 +101,12 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-twitch
           url: https://twitch.tv/tanookizoot
-        - icon: fab fa-discord
-          url: https://discord.gg/qbUWcggk
         - icon: fab fa-twitter
           url: https://twitter.com/TanookiZoot
         - icon: fab fa-steam
           url: https://steamcommunity.com/id/TanookiZoot
+        - icon: fab fa-discord
+          url: https://discord.gg/qbUWcggk
       customIcons:
         - icon: /images/projects/kofilogo_bluebg.png
           url: "https://ko-fi.com/tanookizoot"
@@ -276,7 +276,7 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: tanookizoot@gmail.com
+    email: hello@tanookizoot.com
     btnName: Mail me
 
   footer:
