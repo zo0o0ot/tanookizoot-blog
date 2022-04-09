@@ -35,6 +35,8 @@ the video ID would be `123456789`.
 
 {{< twitch video="1259919476" >}}
 
+{{< twitch2 video="v1259919476" >}}
+
 ## JSFiddle Shortcode
 JSFiddle shortcodes embed a read-only JSFiddle and displays the HTML,
 CSS, JavaScript along with the Result. You can customize the appearance
