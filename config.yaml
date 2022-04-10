@@ -107,6 +107,8 @@ params:
           url: https://steamcommunity.com/id/TanookiZoot
         - icon: fab fa-discord
           url: https://discord.gg/qbUWcggk
+        - icon: fab fa-soundcloud
+          url: https://soundcloud.com/tanookizoot
       customIcons:
         - icon: /images/projects/kofilogo_bluebg.png
           url: "https://ko-fi.com/tanookizoot"
