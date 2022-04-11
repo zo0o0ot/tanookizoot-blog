@@ -10,5 +10,4 @@ Feel free to check it out below!
 
 <!--more-->
 
-
-{{< twitch video="1016440547" >}}
+{{< twitch video="1016440547" width="900" height="600"  >}}

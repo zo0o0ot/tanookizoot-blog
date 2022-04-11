@@ -1,10 +1,10 @@
 <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-<div id="twitch-embed" class="shortcode shortcode--twitch shortcode--video" style="width: 854; height: 480;"></div>
+<div id="twitch-embed" class="shortcode shortcode--twitch shortcode--video" style="width: 600; height: 337;"></div>
 
 <script type="text/javascript">
 	var options = {
-		width: 854,
-    	height: 480,
+		width: 640,
+    	height: 400,
 	};
 
 	var time = '{{ with .Get "time"}}{{.}}{{end}}';
@@ -14,6 +14,8 @@
 
 	new Twitch.Player("twitch-embed", {
 		video: '{{ with .Get "video"}}{{.}}{{end}}',
-		options: options
+		options: options,
+		width: '{{ .Get "width" }}',
+		height: '{{ .Get "height" }}',
 	});
 </script>

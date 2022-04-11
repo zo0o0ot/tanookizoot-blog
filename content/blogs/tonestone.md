@@ -11,7 +11,7 @@ Feel free to check it out below!
 <!--more-->
 
 
-{{< twitch video="1259919476" >}}
+{{< twitch video="1259919476" width="900" height="600" >}}
 
 I mention during the video that if the sound doesn't come though, check out the link.  I'll provide those links here.
 
