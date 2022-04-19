@@ -260,12 +260,12 @@ params:
         #  - icon: fab fa-github
         #    url: https://github.com/gurusabarish/converter
 
-      # - title: Hugo Profile V2
-      #  content: A clean and simple Hugo template for personal portfolio and blog.
-      #  image: /images/projects/profile2.jpg
-      #  featured:
-      #    name: Demo V2
-      #    link: https://hugo-profile-2.netlify.app
+      - title: Chillhop
+        content: I often play Chillhop music in the background to help with the chill vibes.
+        image: /images/projects/chillhop1.png
+        featured:
+          name: Chillhop link
+          link: https://chillhop.ffm.to/creatorcred
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
