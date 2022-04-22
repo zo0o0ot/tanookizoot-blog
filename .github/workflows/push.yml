@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
+      with:
+        submodules: true    
     - name: hugo-deploy-gh-pages
       uses: khanhicetea/gh-actions-hugo-deploy-gh-pages@master
       env:
