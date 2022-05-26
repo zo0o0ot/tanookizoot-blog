@@ -91,7 +91,7 @@ params:
     intro: "Hi, my name is"
     title: "TanookiZoot."
     subtitle: "I play games and cultivate chill vibes"
-    content: "A variety streamer who plays games, shares stories, and listens to the folks around him. "
+    content: "(He/Him) A variety streamer who plays games, shares stories, and listens to the folks around him. "
     image: /images/TanookiZootBlackBG.gif
     button:
       enable: false
