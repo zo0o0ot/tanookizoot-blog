@@ -91,7 +91,7 @@ params:
     intro: "Hi, my name is"
     title: "TanookiZoot."
     subtitle: "I play games and cultivate chill vibes"
-    content: "(He/Him) A variety streamer who plays games, shares stories, and listens to the folks around him. "
+    content: "(He/Him) A Youtuber and occasional variety streamer who plays games, shares stories, and listens to the folks around him. "
     image: /images/TanookiZootBlackBG.gif
     button:
       enable: false
@@ -121,17 +121,17 @@ params:
     title: "About Me"
     image: "/images/coat14.png"
     content: |-
-      I am a variety streamer on Twitch. I do cool stuff and help create chill vibes.
+      I am Youtube who does indie game reviews, Steam Next Fest reviews, and other assorted content. I'm also an occasional variety streamer on Twitch. I do cool stuff and help create chill vibes.
     skills:
       enable: true
       title: "Here are a few games that I've been playing recently:"
       items:
-        - Valheim
+        - Spirit City Lofi Sessions
         - No Man's Sky
-        - Undermine
-        - Core Keeper
-        - Streets of Rogue
-        - Boomerang Fu
+        - Cast n' Chill
+        - PEAK
+        - Deep Rock Galactic Survivor
+        - SN0 - Ultimate Freeriding
 
   # Experience
   experience:
