@@ -4,18 +4,32 @@ on:
   push:
     branches:
       - main
-      
+
 jobs:
-  hugo-deploy-gh-pages:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
-      with:
-        submodules: true    
-    - name: hugo-deploy-gh-pages
-      uses: khanhicetea/gh-actions-hugo-deploy-gh-pages@master
-      env:
-        GITHUB_REMOTE_REPOSITORY: "tanookizoot/tanookizoot.github.io"
-        GITHUB_BRANCH: main
-        GIT_DEPLOY_KEY: ${{ secrets.TANOOKI_DEPLOY }}
-        HUGO_VERSION: "0.95.0"
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.95.0'
+          extended: false
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.TANOOKI_DEPLOY }}
+          external_repository: tanookizoot/tanookizoot.github.io
+          publish_branch: main
+          publish_dir: ./public
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
