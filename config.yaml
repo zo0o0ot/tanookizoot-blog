@@ -3,7 +3,8 @@ languageCode: "en-us"
 title: "TanookiZoot"
 theme: hugo-profile
 
-Paginate: 3
+pagination:
+  pagerSize: 3
 disqusShortname: tanookizoot
 googleAnalytics: G-ET77RHBLNH
 
