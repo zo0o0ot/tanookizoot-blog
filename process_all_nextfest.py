@@ -197,7 +197,7 @@ def main():
     post_dest = os.path.join(CONTENT_DIR, post_filename)
     
     front_matter = {
-        'title': "Steam Next Fest - February 2025 Roundup",
+        'title': "Feb. 2025 - Steam Next Fest - Roundup",
         'date': datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
         'draft': False,
         'tags': ["Next Fest", "Game Review", "Steam"],
