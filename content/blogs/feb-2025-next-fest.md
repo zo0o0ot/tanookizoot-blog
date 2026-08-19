@@ -1,6 +1,6 @@
 ---
 title: "Feb. 2025 - Steam Next Fest - Roundup"
-date: "2026-08-18T13:01:52Z"
+date: "2026-08-19T02:48:16Z"
 draft: false
 tags:
   - "Next Fest"
@@ -9,7 +9,7 @@ tags:
 image: "/images/reviews/bao-bao-s-cozy-laundromat.jpg"
 ---
 
-Here is my complete list of reviews and impressions for the games I checked out during the Steam Next Fest in February 2025.
+Here is my complete list of reviews and impressions for the games I checked out during the Steam Next Fest in Feb 2025.
 
 <!--more-->
 
